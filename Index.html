@@ -4,33 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enjoy with us</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Para más personalización-->
+    <link type="text/css" rel="stylesheet" href="style.css">
 </head>
-<body class="container-fluid">
+
+
+
+<body class="container-fluid clearfix">
+
+
     <!-- header -->
-    <nav class="navbar navbar-expand">
-        <div class="row text-center">
-            <img src="./images/Yo.png" alt="Creado por Krystel"  class="col-2">
-            <p class="col-9">Wake up and make your dreams come true</p>
+    <nav class="navbar sticky-top">
+
+        <!--el tiempo con scrip-js-->
+        <div id='temps'></div>
+
+        <!--mi firma-->
+        <div class="d-flex justify-content-end">
+        <img src="./images/Yo.png" alt="Creado por Krystel" style="
+        max-width: 20%;
+        min-width: 100px;">
         </div>
+
     </nav>
     <!-- header -->
 
+
     <!-- main -->
-    <main class="justify-content-center row">
-        <button class="col-auto">Següent acudit</button>
+    <main>
+
+        <!---->
+        <section>
+
+            <!--Margen izquierdo (mi)-->
+            <div class="mi">
+                
+            </div>
+
+            <!--Contenido (c)-->
+            <div class="c">
+                <div class="buttons">
+                    <div>
+                        <p class="negrita"> Preparat per riure? </p>
+                        <p id="acudit"> </p>
+                    </div>
+                    
+                    <div>
+                        <button onclick="valorarChiste(1)">1</button>
+                        <button onclick="valorarChiste(2)">2</button>
+                        <button onclick="valorarChiste(3)">3</button>
+                    </div>
+        
+                    <div>
+                        <button onclick="mostrarChiste()">Següent acudit</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Margen derecho (md)-->
+            <div class="md">
+                
+            </div>
+
+        </section>
     </main>
     <!-- main -->
 
+
     <!-- footer -->
     <footer>
-
+       <h6>Gràcies per venir.</h6>
     </footer>
     <!-- footer -->
+
+
+    <!--Hoja de js-->
+    <script src="script.js"></script>
 </body>
 </html>

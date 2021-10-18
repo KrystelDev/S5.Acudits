@@ -1,0 +1,70 @@
+nav {
+    height: 20vh;
+    background-color: transparent;
+}
+main {
+    height: 75vh;
+    width: 100%;
+}
+footer{ 
+    height: 5vh;
+}
+
+section {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.mi {
+    height: 100%;
+    background-image: url(./images/FondoMi.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 10% 120%;
+    flex-basis: 20%;
+}
+.c {
+    height: 100%;
+    background-image: url(./images/fondoC.svg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: -200px -250px;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.buttons div {
+    margin: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% 20% 10% 20%;
+}
+.negrita{
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+#acudit {
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.md {
+    height: 100%;
+    background-image: url(./images/FondoMd.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -70px -45px;
+    flex-basis: 20%;
+}
